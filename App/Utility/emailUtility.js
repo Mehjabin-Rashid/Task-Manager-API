@@ -1,5 +1,5 @@
 import nodemailer from "nodemailer";
-import { EMAIL_HOST, EMAIL_PASS, EMAIL_PORT, EMAIL_SECURITY, EMAIL_USER} from "../config/config.js";
+import { EMAIL_HOST, EMAIL_PASS, EMAIL_PORT, EMAIL_SECURITY, EMAIL_USER} from "../Config/Config.js";
 
 const SendEmail = async(EmailTo, EmailText, EmailSubject)=>{
 

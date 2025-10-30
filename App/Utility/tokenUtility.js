@@ -1,4 +1,4 @@
-import {JWT_EXPIRATION_TIME, JWT_SECRET} from "../config/config.js";
+import {JWT_EXPIRATION_TIME, JWT_SECRET} from "../Config/Config.js";
 import jwt from "jsonwebtoken";
 
 export const TokenEncode = (email, User_id) => {

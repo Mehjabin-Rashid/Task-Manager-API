@@ -159,6 +159,8 @@ The API will be available at `http://localhost:5600/api`
 
 ## Security Best Practices
 
+**⚠️ IMPORTANT**: The application contains default/fallback values for backward compatibility. These defaults may include exposed credentials and MUST NOT be used in production. Always create a `.env` file with your own secure values.
+
 1. **Never commit your `.env` file** - It contains sensitive information
 2. **Use strong, unique passwords** for your MongoDB database
 3. **Generate a random JWT secret** - Don't use the example value

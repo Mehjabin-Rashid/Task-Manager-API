@@ -1,6 +1,10 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
+// WARNING: The default values below are for backward compatibility only.
+// For production use, ALWAYS set environment variables in your .env file.
+// Never use these default values in production as they may contain exposed credentials.
+
 export const MONGODB_CONNECTION = process.env.MONGODB_CONNECTION || "mongodb+srv://Mehjabin:241103@cluster0.mwz5d.mongodb.net/test";
 
 export const JWT_SECRET = process.env.JWT_SECRET || "5EC7CEFA1BE7C9354A639369A2AA8";

@@ -2,7 +2,7 @@ import express from "express";
 const router = express.Router();
 import * as TaskController from "../App/Controllers/TaskControllers.js";
 import * as UserController from "../App/Controllers/UsersControllers.js";
-import AuthMiddlewares from "../App/Middlewares/AuthMiddlewares.js";
+import AuthMiddlewares from "../App/Middlewares/Authmiddlewares.js";
 
 
 // Users
